@@ -12,17 +12,17 @@
   "ytd_return": 8.74,
   "vol_avg30": 173705740,
   "rsi_latest": 34.3,
-  "lr_next_price": 206.69,
+  "lr_next_price": 148.63,
   "rf_next_price": 194.3,
   "lr_metrics": {
-    "mae": 3.8291,
-    "rmse": 4.8928,
-    "r2": 0.9078
+    "mae": 37.7703,
+    "rmse": 41.2523,
+    "r2": -5.5531
   },
   "rf_metrics": {
     "mae": 8.6631,
     "rmse": 12.1872,
-    "r2": 0.428
+    "r2": 0.4281
   },
-  "generated_at": "2026-06-10 12:00 UTC"
+  "generated_at": "2026-06-10 12:09 UTC"
 }
