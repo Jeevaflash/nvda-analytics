@@ -20,9 +20,20 @@ def fetch_data():
     """Download NVIDIA stock data from yfinance (full history)."""
     print("Fetching NVIDIA stock data...")
     nvda = yf.download("NVDA", period="max", auto_adjust=True)
-    nvda.columns = nvda.columns.get_level_values(0)
-    nvda = nvda.reset_index()
+    
+    # Flatten multi-level columns if present
+    if isinstance(nvda.columns, pd.MultiIndex):
+        nvda.columns = nvda.columns.get_level_values(0)
+    
+    # Lowercase all column names
     nvda.columns = [c.lower() for c in nvda.columns]
+    
+    # Reset index and bring date in as a column
+    nvda = nvda.reset_index()
+    
+    # Rename any variation of date column to 'date'
+    nvda.columns = [c.lower() for c in nvda.columns]
+    
     nvda = nvda.dropna()
     nvda["date"] = pd.to_datetime(nvda["date"])
     nvda = nvda.sort_values("date").reset_index(drop=True)

@@ -1,0 +1,28 @@
+{
+  "latest_date": "2026-06-05",
+  "latest_close": 205.1,
+  "open": 214.53,
+  "high": 214.87,
+  "low": 204.33,
+  "volume": 219655500,
+  "price_change": -13.56,
+  "pct_change": -6.2,
+  "all_time_high": 235.47,
+  "all_time_low": 94.18,
+  "ytd_return": 8.74,
+  "vol_avg30": 173705740,
+  "rsi_latest": 34.3,
+  "lr_next_price": 206.69,
+  "rf_next_price": 194.3,
+  "lr_metrics": {
+    "mae": 3.8291,
+    "rmse": 4.8928,
+    "r2": 0.9078
+  },
+  "rf_metrics": {
+    "mae": 8.6631,
+    "rmse": 12.1872,
+    "r2": 0.428
+  },
+  "generated_at": "2026-06-10 12:00 UTC"
+}
