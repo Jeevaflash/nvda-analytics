@@ -1,28 +1,28 @@
 {
-  "latest_date": "2026-07-15",
-  "latest_close": 212.5,
-  "open": 211.96,
-  "high": 213.81,
-  "low": 206.04,
-  "volume": 124482600,
-  "price_change": 0.7,
-  "pct_change": 0.33,
+  "latest_date": "2026-07-16",
+  "latest_close": 207.4,
+  "open": 210.17,
+  "high": 211.08,
+  "low": 205.85,
+  "volume": 122377500,
+  "price_change": -5.1,
+  "pct_change": -2.4,
   "all_time_high": 235.47,
   "all_time_low": 94.18,
-  "ytd_return": 12.66,
-  "vol_avg30": 151032540,
-  "rsi_latest": 62.4,
-  "lr_next_price": 168.15,
-  "rf_next_price": 194.79,
+  "ytd_return": 9.96,
+  "vol_avg30": 148676846,
+  "rsi_latest": 60.3,
+  "lr_next_price": 168.75,
+  "rf_next_price": 195.16,
   "lr_metrics": {
-    "mae": 37.6571,
-    "rmse": 40.9885,
-    "r2": -5.867
+    "mae": 37.5961,
+    "rmse": 40.9069,
+    "r2": -5.8527
   },
   "rf_metrics": {
-    "mae": 10.7192,
-    "rmse": 13.792,
-    "r2": 0.2225
+    "mae": 10.777,
+    "rmse": 13.8171,
+    "r2": 0.2182
   },
-  "generated_at": "2026-07-16 18:55 UTC"
+  "generated_at": "2026-07-17 18:52 UTC"
 }
